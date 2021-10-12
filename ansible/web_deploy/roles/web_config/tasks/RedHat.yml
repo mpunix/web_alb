@@ -1,9 +1,9 @@
 ---
 # tasks file for Redhat
-#- name: "Install RedHat packages"
-#  package: 
-#    pkg: httpd
-#    state: present
+- name: "Install RedHat packages"
+  package: 
+    pkg: httpd
+    state: present
  
   
 - name: "Create document root"
