@@ -1,0 +1,7 @@
+---
+# tasks file for myapache
+# apache/tasks/main.yml
+
+- name: "Run for RedHat"
+  include_tasks: "RedHat.yml"
+  when: ansible_os_family == "RedHat"

@@ -1,0 +1,7 @@
+---
+
+- hosts: webservers 
+  sudo: True
+
+  roles:
+    - web_config
